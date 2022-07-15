@@ -1,0 +1,183 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.header{
+    background-color: #FFFFFF;
+}
+
+.header-logo{
+    font-weight: 700;
+font-size: 26px;
+line-height: 31/26;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.header-link{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16/14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.header-link:hover{
+    color: #2196F3;
+}
+
+.header-mailto{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16/14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.header-mailto:hover{
+    color: #2196F3;
+}
+
+.header-tel{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16/14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.hero-section{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    font-weight: 900;
+font-size: 44px;
+line-height: 60/44;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-btn{
+    font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 30/16;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+.quality-section{
+    background-color: #E5E5E5;
+}
+
+.quality-section-title{
+    font-weight: 700;
+font-size: 14px;
+line-height: 16/14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.quality-section-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24/14;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.occupation-section{
+    background-color: #E5E5E5;
+}
+
+.occupation-section-title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 42/36;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-section{
+    background-color: #F5F4FA;
+}
+
+.team-section-main-title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 42/36;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-section-additional-title{
+    font-weight: 500;
+font-size: 16px;
+line-height: 19/16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-section-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19/16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logo{
+    font-weight: 700;
+font-size: 26px;
+line-height: 31/26;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.footer-link{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24/14;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-mailto{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24/14;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
