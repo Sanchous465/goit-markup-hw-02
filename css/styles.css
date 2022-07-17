@@ -1,3 +1,10 @@
+:root{
+    --primary-text-color: #757575;
+    --primary-title-color: #212121;
+    --accent-color: #2196f3;
+    --primary-white-color: #FFFFFF;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -7,7 +14,7 @@ body{
 }
 
 .header{
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
 }
 
 li{
@@ -22,11 +29,11 @@ font-size: 26px;
 line-height: calc(31/26);
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: var(--accent-color);
 }
 
 span{
-    color: #212121;
+    color: var(--primary-title-color);
 }
 
 .header-logo{
@@ -39,7 +46,7 @@ font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 
-color: #212121;
+color: var(--primary-title-color);
 }
 
 
@@ -49,7 +56,7 @@ color: #212121;
 }
 
 .header-link:hover, .header-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-mailto{
@@ -58,7 +65,7 @@ font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 
-color: #212121;
+color: var(--primary-text-color);
 }
 
 .header-mailto{
@@ -66,7 +73,7 @@ color: #212121;
 }
 
 .header-mailto:hover, .header-mailto:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-tel{
@@ -75,7 +82,7 @@ font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.02em;
 
-color: #757575;
+color: var(--primary-text-color);
 }
 
 .header-tel{
@@ -94,7 +101,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: var(--primary-white-color);
 }
 
 .hero-btn{
@@ -107,8 +114,8 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
-background-color: #2196F3;
-color: #FFFFFF;
+background-color: var(--accent-color);
+color: var(--primary-white-color);
 }
 
 .quality-section{
@@ -122,16 +129,15 @@ line-height: calc(16/14);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-color: #212121;
+color: var(--primary-title-color);
 }
 
 .quality-section-text{
-    font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--primary-text-color);
 }
 
 .occupation-section{
@@ -145,7 +151,7 @@ line-height: calc(42/36);
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--primary-title-color);
 }
 
 .team-section{
@@ -159,7 +165,7 @@ line-height: calc(42/36);
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--primary-title-color);
 }
 
 .team-section-additional-title{
@@ -169,17 +175,16 @@ line-height: calc(19/16);
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--primary-title-color);
 }
 
 .team-section-text{
-    font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 line-height: calc(19/16);
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--primary-text-color);
 }
 
 .footer{
@@ -194,11 +199,11 @@ font-size: 26px;
 line-height: calc(31/26);
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: var(--accent-color);
 }
 
 .logo-span{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .footer-logo{
@@ -206,12 +211,11 @@ color: #2196F3;
 }
 
 .footer-link{
-    font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
 
-color: #FFFFFF;
+color: var(--primary-white-color);
 }
 
 .footer-link{
@@ -220,8 +224,7 @@ color: #FFFFFF;
 }
 
 .footer-mailto{
-    font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
 
@@ -234,8 +237,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel{
-    font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 line-height: calc(24/14);
 letter-spacing: 0.03em;
 
@@ -256,12 +258,12 @@ text-align: center;
 letter-spacing: 0.03em;
 
 background-color: #F5F4FA;
-color: #212121;
+color: var(--primary-title-color);
 }
 
 .portfolio-btn:hover, .portfolio-btn:focus{
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 
 }
 
@@ -271,14 +273,13 @@ font-size: 18px;
 line-height: calc(36/18);
 letter-spacing: 0.06em;
 
-color: #212121;
+color: var(--primary-title-color);
 }
 
 .portfolio-text{
-    font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 line-height: calc(30/16);
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--primary-text-color);
 }
